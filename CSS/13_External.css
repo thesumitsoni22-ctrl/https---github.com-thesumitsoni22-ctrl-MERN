@@ -1,0 +1,28 @@
+h1{
+    font-size: bold;
+    text-align: center;
+    font-style: italic;
+}
+p{
+    background-color: blue;
+}
+/* Id Styling */
+#abc{
+    background-color: bisque;
+}
+#pp{
+font-style: italic;
+background-color: yellow;
+}
+/* Class Styling */
+.bold{
+    font-style: italic;
+}
+/* two tags styling equalli */
+article,footer{
+    font-style: italic;
+    background-color: yellowgreen;
+}
+p#pp{
+    font-style: normal;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Bookmark Experiment 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    nav {
+      background: #f4f4f4;
+      padding: 10px;
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      height: 400px;
+      border-bottom: 1px solid #ddd;
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu (Bookmarks Links) -->
+  <header>
+    <h1>My Document Index</h1>
+    <nav>
+      <a href="#section1">Introduction</a>
+      <a href="#section2">HTML Basics</a>
+      <a href="#section3">Conclusion</a>
+    </nav>
+  </header>
+
+  <!-- Target Sections (Bookmark Destinations) -->
+  <section id="section1">
+    <h2>Introduction</h2>
+    <p>This is the introduction section. Click the top nav links to jump here smoothly.</p>
+  </section>
+
+  <section id="section2">
+    <h2>HTML Basics</h2>
+    <p>Use <code>id="name"</code> on a tag, and match it with <code>href="#name"</code> in an anchor tag.</p>
+  </section>
+
+  <section id="section3">
+    <h2>Conclusion</h2>
+    <p>End of the bookmark demonstration page.</p>
+  </section>
+
+</body>
+</html>
